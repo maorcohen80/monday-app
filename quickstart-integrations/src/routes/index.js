@@ -14,7 +14,6 @@ router.get('/health', function (req, res) {
 });
 router.post('/hitserver', function (req, res) {
   const { payload } = req.body;
-  console.log('payload', payload)
   const { inputFields } = payload;
 
   // try {
